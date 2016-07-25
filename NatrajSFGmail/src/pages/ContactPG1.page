@@ -1,0 +1,6 @@
+<apex:page standardController="Contact">    
+<apex:pageBlock title="Simple Title"> 
+      <b>Hellooo <i>{!$User.FirstName}</i>.</b> 
+</apex:pageBlock> 
+<apex:enhancedList type="Contact" height="350"/>
+</apex:page>
