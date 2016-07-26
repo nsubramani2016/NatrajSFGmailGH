@@ -1,0 +1,5 @@
+<apex:page >
+  <!-- Begin Default Content REMOVE THIS -->
+  <h1>Congratulations</h1>
+  Page with standard controller and extensions.  <!-- End Default Content REMOVE THIS -->
+</apex:page>

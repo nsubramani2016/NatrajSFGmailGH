@@ -1,0 +1,32 @@
+<apex:page standardController="PL_Customer__c" recordSetVar="records" >
+
+<apex:form >
+<apex:pageblock >
+    <apex:pageBlockTable value="{!records}" var="r" >
+        <apex:column headerValue="Customer Name" value="{!r.Name}" />
+                      
+  </apex:pageBlockTable>
+</apex:pageblock>
+
+</apex:form>
+</apex:page>
+
+
+<!--
+
+<apex:page controller="EmpData">
+
+<apex:form >
+<apex:pageblock >
+    <apex:pageBlockTable value="{!lstE}" var="r" >
+        <apex:column headerValue="Emp name" value="{!r.Name}" />
+        <apex:column headerValue="city" value="{!r.city__c}" />
+        <apex:column headerValue="Country" value="{!r.country__c}" />                
+  </apex:pageBlockTable>
+</apex:pageblock>
+
+</apex:form>
+
+</apex:page>
+
+-->

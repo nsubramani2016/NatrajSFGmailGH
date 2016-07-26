@@ -1,0 +1,43 @@
+<apex:page sidebar="false" showChat="Yes" >   
+<!--apex:stylesheet value="{!SResource.CSS1}"-->
+<apex:form >
+
+<style>
+ .fontOrange{
+     color:Orange;
+     font-size:40px;
+     font-weight:bold;
+ }
+ .fontBrown{
+     color:Brown;
+     font-size:40px;
+     font-weight:bold;
+ }
+</style>
+
+<!-- USING INLINE CSS -->
+
+<apex:outputText value="Many Congratulations !!!" style="color:red;font-size:100px;font-weight:bold;"></apex:outputText><br/><br/>
+
+<apex:outputText value="Using Inline CSS 1" style="color:blue;font-size:30px;font-weight:bold;"></apex:outputText><br/> <br/> 
+<h3 Style="color:purple"> Using Inline CSS 2</h3> <br/><br/>
+
+<!-- USING INTERNAL CSS -->
+
+<apex:outputText value="Using Internal CSS 1" styleClass="fontOrange"></apex:outputText><br/><br/>
+<apex:outputText value="Using Internal CSS 2" styleClass="fontBrown"></apex:outputText><br/> <br/> 
+       
+
+<!-- USING EXTERNAL CSS -->
+
+<apex:outputText value="Using External CSS 1" styleClass="fontBlack"></apex:outputText><br/><br/>
+<apex:outputText value="Using External CSS 2" styleClass="fontGrey"></apex:outputText><br/> <br/> 
+
+
+
+
+
+
+</apex:form>
+<!--/apex:stylesheet-->
+</apex:page>

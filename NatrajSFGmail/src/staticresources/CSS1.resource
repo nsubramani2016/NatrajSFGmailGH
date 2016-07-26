@@ -1,0 +1,12 @@
+<style>
+ .fontBlack{
+     color:black;
+     font-size:70px;
+     font-weight:bold;
+ }
+ .fontGrey{
+     color:grey;
+     font-size:70px;
+     font-weight:bold;
+ }
+</style>
